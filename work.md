@@ -83,20 +83,19 @@ public interface Teacher_manage {
 
 ```
 ```
-
-try{
-            	System.out.println("输入第" + (i + 1) + "位博士学费：");
-                Scanner tuition = new Scanner(System.in);
-                int Dtuition = tuition.nextInt();
-                if(Dtuition<0){
-                	throw new Exception("输出错误！学费不能为负！");
-                }
+System.out.println("输入第" + (i + 1) + "位博士薪水：");
+            Scanner salary = new Scanner(System.in);
+            int Dsalary = salary.nextInt();
+            try{
+            	if(Dsalary<0){
+            	throw new Exception("输出错误！薪水不能为负！"); //异常显示
             }
-            
+        }
             catch(Exception e){
-            	  System.out.println("发生异常："+e.getMessage()); //发生异常
-            	  System.exit(1);//运行终止
-            }
+          	  System.out.println("发生异常："+e.getMessage()); 
+          	  System.exit(1); //发生异常后，终止运行
+          }
+
 ```
 ```
 
@@ -106,8 +105,9 @@ for (int i = 0; i < Dnum; i++) {  //for循环 实现第1.2.3------+n个博士
             String Dname = name.nextLine();
 ```
 ## 6.运行截图   
-![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcan*ieJiZf51cmjFaPLtmWEJtgRhyiKOSYxuHeZyhg8cMS*HLJ5IRfdtV7KX5mgR3ACtD.vGkhLwW6faS7gXVhY!/b&bo=JgPQAAAAAAADF8c!&rf=viewer_4) 
-![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcan*ieJiZf51cmjFaPLtmWHlVEN*9uJfQLSQ7pbGyUu8dc40wGd4m1R0c5Po08hgZ8TWdZT0lzhr5LFMoGvID20!/b&bo=ogRQAQAAAAADF8U!&rf=viewer_4) 
+![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/ruAMsa53pVQWN7FLK88i5mn*CGjnEd3r40pIp4Ri7puA92bCfX58Mr8CFQY1ISMhxafECkwT3cmcGdVrJNJLeSqlo7UQ59Peg3X2DJt3nnc!/b&bo=*AAEAQAAAAADB9s!&rf=viewer_4) 
+![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcXPBUEt7Q7*b**VBpjWsUUOrSN1FgxAZ4bVxtlaCXolwzSJwADz99j7eZIzG9nXQuidK4uEXWdafHuo0bn578is!/b&bo=wgChAQAAAAADF1A!&rf=viewer_4) 
+![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcXPBUEt7Q7*b**VBpjWsUUOayfyk0ABivZTAY4F0dAHbIcAOJW18RtPbKBHgKAnkqTxexiHhRQUkHXoHyCAf0.I!/b&bo=sAIMAQAAAAADF40!&rf=viewer_4) 
 
 
 ## 7.编程感想  

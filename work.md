@@ -105,13 +105,21 @@ for (int i = 0; i < Dnum; i++) {  //for循环 实现第1.2.3------+n个博士
             String Dname = name.nextLine();
 ```
 ## 6.运行截图   
-![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/ruAMsa53pVQWN7FLK88i5mn*CGjnEd3r40pIp4Ri7puA92bCfX58Mr8CFQY1ISMhxafECkwT3cmcGdVrJNJLeSqlo7UQ59Peg3X2DJt3nnc!/b&bo=*AAEAQAAAAADB9s!&rf=viewer_4) 
-![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcXPBUEt7Q7*b**VBpjWsUUOrSN1FgxAZ4bVxtlaCXolwzSJwADz99j7eZIzG9nXQuidK4uEXWdafHuo0bn578is!/b&bo=wgChAQAAAAADF1A!&rf=viewer_4) 
+![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/ruAMsa53pVQWN7FLK88i5mn*CGjnEd3r40pIp4Ri7puA92bCfX58Mr8CFQY1ISMhxafECkwT3cmcGdVrJNJLeSqlo7UQ59Peg3X2DJt3nnc!/b&bo=*AAEAQAAAAADB9s!&rf=viewer_4)  
+  
+  
+![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcXPBUEt7Q7*b**VBpjWsUUOrSN1FgxAZ4bVxtlaCXolwzSJwADz99j7eZIzG9nXQuidK4uEXWdafHuo0bn578is!/b&bo=wgChAQAAAAADF1A!&rf=viewer_4)   
+  
+  
 ![alt console](http://m.qpic.cn/psc?/V50ghPAb3qpJGr4VGzMR1RNNj21NWrfC/45NBuzDIW489QBoVep5mcXPBUEt7Q7*b**VBpjWsUUOayfyk0ABivZTAY4F0dAHbIcAOJW18RtPbKBHgKAnkqTxexiHhRQUkHXoHyCAf0.I!/b&bo=sAIMAQAAAAADF40!&rf=viewer_4) 
 
 
 ## 7.编程感想  
-1.通过编程熟悉了getset方法，加深了对toString方法的使用。  
-2.利用了大专时期所学的list集合。  
-3.在编程过程中出现了许多问题和报错，经过同学的帮助以及csdn的查询，逐步排错改错。
+1.通过编程掌握了如何实现接口中的方法，再次运用了List集合和for循环来实现博士生的个数。  
+
+2.上网查询了发生异常后，终止运行的代码。System.exit(1);   
+
+3.上网检索了税收的相关公式，并在软件中实现。  
+
+4.在编程过程中出现了许多问题和报错，经过同学的帮助以及csdn的查询，逐步排错改错。
 
